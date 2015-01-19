@@ -1,0 +1,17 @@
+.embedder {
+  width: 228px;
+  height: 264px;
+  margin: 5px 15px 15px 15px;
+}
+
+.embed-title {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+
+#dragger {
+  z-index: 10000;
+  top: 200px;
+  left: 80%;
+}

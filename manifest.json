@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "LichessTV Embedder",
+  "description": "Embeds LichessTV onto websites of your choice",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["http://*.nicovideo.jp/*"],
+      "js": ["jquery.js", "draggable.js", "app.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    "index.html"
+  ]
+}

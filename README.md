@@ -19,6 +19,6 @@ onto the webpage of your choice. Uses draggable.js https://github.com/gtramontin
 1. Open manifest.json
 2. Take a look at this [guide](https://developer.chrome.com/extensions/content_scripts), and change the "matches" property on "content_scripts."
 3. Examples:
+    * use <all_urls> to embed LichessTV on all websites you visit.
     * "matches": ["http://shinuesugi.com/"] embeds LichessTV when visiting my website.
-    * "matches": ["<all_urls"] embeds LichessTV on all websites you visit (add closing >).
-    * "matches": ["http://nicovideo.jp/*"] embeds lichessTV on any websites that start with http://nicovideo.jp/, but will not include websites such as http://live.nicovideo.jp/.
+    * "matches": ["http://nicovideo.jp/*"] embeds LichessTV on any websites that start with http://nicovideo.jp/, but will not include websites such as http://live.nicovideo.jp/.

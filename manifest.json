@@ -7,7 +7,7 @@
 
   "content_scripts": [
     {
-      "matches": ["http://*.nicovideo.jp/*"],
+      "matches": ["<http://*.nicovideo.jp/*>", "<http://www.twitch.tv/*>"],
       "js": ["jquery.js", "draggable.js", "app.js"],
       "css": ["style.css"]
     }

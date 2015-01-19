@@ -12,7 +12,8 @@ onto the webpage of your choice. Uses draggable.js https://github.com/gtramontin
 3. Check "Developer mode" on the top right.
 4. Click "Load unpacked extension."
 5. Select the folder that contains downloaded files.
-6. Go to [Niconico](http://www.nicovideo.jp/) or [twitch](http://www.twitch.tv/) and see what happens!
+6. Go to [Niconico](http://www.nicovideo.jp/) or [twitch](http://www.twitch.tv/)
+7. Click on the black part to drag LichessTV around.
 
 ## Customization
 
